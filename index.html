@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aurelle | Everyday essentials, made to last</title>
+    <!-- Educational Student Practice Project Only -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="topbar text-center">Free delivery over $50. Use code AUTUMN30 for 30% off.</div>
+
+    <nav class="navbar navbar-expand-lg sticky-top site-nav">
+        <div class="container">
+            <a class="navbar-brand brand" href="#home">Aurelle</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+                aria-controls="menu" aria-expanded="false" aria-label="Toggle menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#categories">Categories</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sale">Sale</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <button aria-label="Search"><i class="bi bi-search"></i></button>
+                    <button aria-label="Wishlist"><i class="bi bi-heart"></i></button>
+                    <button aria-label="Cart" class="cart-btn"><i class="bi bi-bag"></i><span
+                            id="cartCount">0</span></button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center g-5">
+                <div class="col-lg-6">
+                    <h1>Everyday essentials, made to last.</h1>
+                    <p class="lead-text">Headphones, watches, bags and more from 40 independent makers, with free
+                        delivery over $50.</p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#shop" class="btn btn-brass">Shop new arrivals</a>
+                        <a href="#categories" class="btn btn-ghost">Browse categories</a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-card">
+                        <div class="orb">🎧</div>
+                        <div class="float-info"><strong>Halo Wireless</strong><span>$129</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="trust">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-6 col-lg-3"><i class="bi bi-truck"></i>
+                    <div>
+                        <h3>Free delivery</h3>
+                        <p>On orders over $50</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3"><i class="bi bi-arrow-repeat"></i>
+                    <div>
+                        <h3>30-day returns</h3>
+                        <p>Free and simple</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3"><i class="bi bi-shield-check"></i>
+                    <div>
+                        <h3>Secure payment</h3>
+                        <p>Card or cash on delivery</p>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3"><i class="bi bi-headset"></i>
+                    <div>
+                        <h3>Real support</h3>
+                        <p>Replies within a day</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="section">
+        <div class="container">
+            <h2 class="section-title">Shop by category</h2>
+            <div class="row g-3">
+                <div class="col-6 col-lg-3"><a href="#shop" class="cat" style="--a:#dfe7f5;--b:#c3d0ea"><span>🎧</span>
+                        <h3>Audio</h3><small>24 items</small>
+                    </a></div>
+                <div class="col-6 col-lg-3"><a href="#shop" class="cat" style="--a:#f3e8d3;--b:#e5d0a6"><span>⌚</span>
+                        <h3>Watches</h3><small>18 items</small>
+                    </a></div>
+                <div class="col-6 col-lg-3"><a href="#shop" class="cat" style="--a:#e4ece3;--b:#c8d9c6"><span>👜</span>
+                        <h3>Bags</h3><small>31 items</small>
+                    </a></div>
+                <div class="col-6 col-lg-3"><a href="#shop" class="cat" style="--a:#f1dfe0;--b:#e3c3c5"><span>👟</span>
+                        <h3>Footwear</h3><small>27 items</small>
+                    </a></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="shop" class="section pt-0">
+        <div class="container">
+            <h2 class="section-title">New arrivals</h2>
+            <div class="row g-3 g-lg-4">
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <span class="tag">Sale</span>
+                        <div class="thumb" style="--a:#dfe7f5;--b:#c3d0ea">🎧</div>
+                        <div class="info"><small>Audio</small>
+                            <h3>Halo Wireless Headphones</h3>
+                            <div class="rate">★ 4.8 <span>(214)</span></div>
+                            <div class="buy">
+                                <p class="price">$129 <s>$169</s></p><button class="add"
+                                    aria-label="Add Halo Wireless Headphones to cart"><i
+                                        class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <span class="tag new">New</span>
+                        <div class="thumb" style="--a:#f3e8d3;--b:#e5d0a6">⌚</div>
+                        <div class="info"><small>Watches</small>
+                            <h3>Meridian Steel Watch</h3>
+                            <div class="rate">★ 4.9 <span>(98)</span></div>
+                            <div class="buy">
+                                <p class="price">$219</p><button class="add"
+                                    aria-label="Add Meridian Steel Watch to cart"><i
+                                        class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <div class="thumb" style="--a:#e4ece3;--b:#c8d9c6">👜</div>
+                        <div class="info"><small>Bags</small>
+                            <h3>Voyager Leather Tote</h3>
+                            <div class="rate">★ 4.7 <span>(152)</span></div>
+                            <div class="buy">
+                                <p class="price">$189</p><button class="add"
+                                    aria-label="Add Voyager Leather Tote to cart"><i
+                                        class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <span class="tag">Sale</span>
+                        <div class="thumb" style="--a:#f1dfe0;--b:#e3c3c5">👟</div>
+                        <div class="info"><small>Footwear</small>
+                            <h3>Stride Runner Sneakers</h3>
+                            <div class="rate">★ 4.6 <span>(310)</span></div>
+                            <div class="buy">
+                                <p class="price">$99 <s>$129</s></p><button class="add"
+                                    aria-label="Add Stride Runner Sneakers to cart"><i
+                                        class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <div class="thumb" style="--a:#e6e3f3;--b:#cfc9e8">🔊</div>
+                        <div class="info"><small>Audio</small>
+                            <h3>Lumen Smart Speaker</h3>
+                            <div class="rate">★ 4.5 <span>(87)</span></div>
+                            <div class="buy">
+                                <p class="price">$79</p><button class="add"
+                                    aria-label="Add Lumen Smart Speaker to cart"><i class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <span class="tag new">New</span>
+                        <div class="thumb" style="--a:#f6ecd0;--b:#ead9a3">🕶️</div>
+                        <div class="info"><small>Accessories</small>
+                            <h3>Solace Sunglasses</h3>
+                            <div class="rate">★ 4.7 <span>(126)</span></div>
+                            <div class="buy">
+                                <p class="price">$59</p><button class="add"
+                                    aria-label="Add Solace Sunglasses to cart"><i class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <div class="thumb" style="--a:#dcebe9;--b:#bcd8d4">💼</div>
+                        <div class="info"><small>Bags</small>
+                            <h3>Nimbus Laptop Sleeve</h3>
+                            <div class="rate">★ 4.6 <span>(64)</span></div>
+                            <div class="buy">
+                                <p class="price">$45</p><button class="add"
+                                    aria-label="Add Nimbus Laptop Sleeve to cart"><i
+                                        class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="col-6 col-lg-3">
+                    <article class="product">
+                        <span class="tag">Sale</span>
+                        <div class="thumb" style="--a:#efe1d6;--b:#dfc6b2">🧥</div>
+                        <div class="info"><small>Clothing</small>
+                            <h3>Ember Wool Jacket</h3>
+                            <div class="rate">★ 4.8 <span>(73)</span></div>
+                            <div class="buy">
+                                <p class="price">$159 <s>$210</s></p><button class="add"
+                                    aria-label="Add Ember Wool Jacket to cart"><i class="bi bi-bag-plus"></i></button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="sale" class="promo">
+        <div class="container text-center">
+            <h2>Autumn sale: 30% off selected items</h2>
+            <p>Use code <strong>AUTUMN30</strong> at checkout. Ends 31 October.</p>
+            <a href="#shop" class="btn btn-brass">Shop the sale</a>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container news">
+            <div>
+                <h2 class="section-title mb-2">Get first access to new drops</h2>
+                <p class="mb-0">One email a week. Unsubscribe any time.</p>
+            </div>
+            <form class="news-form">
+                <input type="email" class="form-control" placeholder="Your email address" aria-label="Email address"
+                    required>
+                <button class="btn btn-brass" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <footer id="contact" class="site-footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4"><a class="brand" href="#home">Aurelle</a>
+                    <p class="mt-2">Considered everyday goods from independent makers.</p>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#shop">New arrivals</a></li>
+                        <li><a href="#categories">Categories</a></li>
+                        <li><a href="#sale">Sale</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-2">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>support@aurelle.example</li>
+                        <li>+92 300 0000000</li>
+                        <li>Karachi, Pakistan</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="copy">&copy; 2026 Aurelle. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
